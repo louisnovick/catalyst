@@ -7,5 +7,5 @@ I felt it was time that I started customizing my own starter theme to help me ki
 *
 
 ###Future additions
-* Jade or Twig Templating
+* Integrate Twig Templating
 *
