@@ -15,9 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'catalyst' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'catalyst' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'catalyst' ), 'catalyst', '<a href="http://louisnovick.com" rel="designer">Louis Novick</a>' ); ?>
+			&copy; 2015 <a href="http://github.com/louisnovick/catalyst">Catalyst</a> <a href="http://louisnovick.com" rel="designer">| Made by Louis Novick</a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
