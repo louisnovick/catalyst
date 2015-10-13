@@ -4,8 +4,8 @@ I felt it was time that I started customizing my own starter theme to help me ki
 ###Goals for this theme
 * Scalable and Modular CSS architecture
 * Modular/DRY Templating
-*
+
 
 ###Future additions
 * Integrate Twig Templating
-*
+
