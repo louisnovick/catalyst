@@ -115,7 +115,7 @@ add_action( 'widgets_init', 'catalyst_widgets_init' );
  */
 function catalyst_scripts() {
   wp_enqueue_style( 'catalyst-css', get_template_directory_uri() . '/build/css/catalyst.min.css');
-  wp_enqueue_script( 'catalyst-js', get_template_directory_uri() . '/build/js/catalyst.min.js', array('jquery'), true );
+  wp_enqueue_script( 'catalyst-js', get_template_directory_uri() . '/build/js/catalyst.js', array('jquery'), '', true );
 }
 add_action( 'wp_enqueue_scripts', 'catalyst_scripts' );
 
