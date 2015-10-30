@@ -61,21 +61,24 @@ $b-space-xl: $b-space * 4;
 $b-maxWidth: 1024px;
 $b-maxWidth-s: 700px;
 
+// ----- Grid ----- //
 
-/// Breakpoints map
-/// @prop {String} keys - Keys are identifiers mapped to a given length
-/// @prop {Map} values - Values are actual breakpoints expressed in pixels
-/// @see {mixin} respond-to
-$breakpoints: (
-  'small': (min-width: 480px),
-  'medium': (min-width: 768px),
-  'large': (min-width: 1024px),
-) !default;
+// Breakpoints
 
+$g-s: 480px;
+$g-m: 800px;
+$g-l: 1024px;
 
+// Settings
 
+$g-columns: 12;
+$g-defaults: "s" $g-s, "m" $g-m, "l" $g-l;
+$g-gutter: $b-space;
+$g-silent: false;
 
+// Selector
 
+$g-selector: if($g-silent, unquote("%"), unquote("."));
 
 /// Relative or absolute URL where all assets are served from
 /// @type String
