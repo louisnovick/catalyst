@@ -174,7 +174,7 @@ msgid "% Comments"
 msgstr ""
 
 #: inc/template-tags.php:126
-#: template-parts/content-page.php:26
+#: parts/content-page.php:26
 #@ _s
 msgid "Edit"
 msgstr ""
@@ -311,36 +311,36 @@ msgstr ""
 msgid "Search Results for: %s"
 msgstr ""
 
-#: template-parts/content-none.php:14
+#: parts/content-none.php:14
 #@ _s
 msgid "Nothing Found"
 msgstr ""
 
-#: template-parts/content-none.php:20
+#: parts/content-none.php:20
 #, php-format
 #@ _s
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: template-parts/content-none.php:24
+#: parts/content-none.php:24
 #@ _s
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
-#: template-parts/content-none.php:29
+#: parts/content-none.php:29
 #@ _s
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
-#: template-parts/content-page.php:19
-#: template-parts/content-single.php:23
-#: template-parts/content.php:32
+#: parts/content-page.php:19
+#: parts/content-single.php:23
+#: parts/content.php:32
 #@ _s
 msgid "Pages:"
 msgstr ""
 
-#. translators: %s: Name of current post 
-#: template-parts/content.php:25
+#. translators: %s: Name of current post
+#: parts/content.php:25
 #, php-format
 #@ _s
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
