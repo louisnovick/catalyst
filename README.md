@@ -8,7 +8,7 @@ Next run `npm install` and then run `gulp`
 * Scalable and Modular CSS architecture
 * Modular/DRY Templating
 
-
-###Future additions
-* Integrate Twig Templating
+###Ideas borrowed from...
+* [MVCSS](https://github.com/mvcss/mvcss)
+* [Sass Boilerplate](https://github.com/HugoGiraudel/sass-boilerplate)
 

@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  color: $text-color;
+  font: $b-fontSize;
+  font-family: $text-font-stack;
+  line-height: $b-lineHeight
+}
+
+ul, p {
+  margin-bottom: $b-space;
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: $b-space-s;
+  margin-top: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+// ----- Links ----- //
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  @include on-event {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
+// ----- Images ----- //
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+
+// ----- Debug ----- //
+
+.debug {
+  background-color: pink !important;
+}

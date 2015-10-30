@@ -1,0 +1,28 @@
+// ----- Headings ----- //
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+  font-family: $text-font-stack; // change to header font stack
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: $b-space-xs;
+  margin-top: 0;
+}
+
+h1, .h1 {
+  font-size: $b-fontSize-h1;
+}
+
+h2, .h2 {
+  font-size: $b-fontSize-h2;
+}
+
+h3, .h3 {
+  font-size: $b-fontSize-h3;
+}
+
+h4, .h4 {
+  font-size: $b-fontSize-h4;
+}

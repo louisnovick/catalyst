@@ -12,7 +12,7 @@ var livereload = require('gulp-livereload');
 
 
 gulp.task('styles', function(){
-  gulp.src(['sass/**/*.scss'])
+  gulp.src(['stylesheets/**/*.scss'])
     .pipe(plumber({
       errorHandler: function (error) {
         console.log(error.message);
@@ -51,6 +51,6 @@ gulp.task('scripts', function(){
 
 gulp.task('default', function(){
   livereload.listen();
-  gulp.watch("sass/**/*.scss", ['styles']);
+  gulp.watch("stylesheets/**/*.scss", ['styles']);
   gulp.watch("js/**/*.js", ['scripts']);
 });

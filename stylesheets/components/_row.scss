@@ -1,0 +1,20 @@
+.row {
+  overflow: hidden;
+  padding: 0 $b-space;
+}
+
+// -------------------------------------
+//   Modifiers
+// -------------------------------------
+
+// Primary
+
+.row--a {
+  background: $light-grey;
+}
+
+// Secondary
+
+.row--b {
+  background: $dark-grey;
+}
